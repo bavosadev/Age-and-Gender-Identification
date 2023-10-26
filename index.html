@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Validator</title>
+</head>
+<body>
+    <header class="title">
+        <h1>Age Validator</h1>
+    </header>
+
+    <section class="corpo">
+        <div class="text">
+           <p id="year"> Year of Birth: 
+            <input type="number" name="yearbirth" id="yearbirth" min="0">
+        </p>
+            <p id="gender">Gender:
+                  <input type="radio" name="gender" id="male" checked>  
+                  <label for="male">Male</label>  
+            
+                  <input type="radio" name="gender" id="female"> 
+                  <label for="female">Female</label>
+            </p>
+            
+            <p>
+                <input id="botão" type="button" value="Verify" onclick="verify()">
+            </p>   
+        </div>
+
+       <div id="res">
+        Please complete the above information to view the result!
+       </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <p>&copy; Curso em video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

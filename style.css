@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(136, 255, 0, 0.397);
+    font: normal 20px Poppins;
+} 
+
+.corpo {
+ background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 700px;
+    height: 450px;
+    margin: 10px;
+    text-align: center;
+}
+
+#botão {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.text {
+    padding: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+
+#gender {
+    margin-top: calc(50% - 200px);
+   
+
+}
+
+
+#res {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+img#foto {
+    width: 250px;
+    height: 250px;
+    margin-left: calc(50% - 125px);
+    margin-right: 205px;
+}
