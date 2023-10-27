@@ -20,7 +20,7 @@ function verify() {
             } else if (idade >= 21 && idade < 50) {
                 img.setAttribute('src', './Assets/youngboy.png')
             } else {
-                img.setAttribute('src', './Assets/grandapa.png.png')
+                img.setAttribute('src', './Assets/grandapapng.png')
             }
         } else if (formSex[1].checked) {
             gênero = 'Female'
